@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background: rgb(163, 227, 173);
+}
+.main{
+	width: 100%;
+	min-height: 500px;
+	background: rgb(3, 92, 84);
+}
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+  margin-left: 10px; 
+}
+nav a {
+  text-decoration: none;
+  line-height: 38px;
+}
+.elem{
+	width: 100%;
+	min-height: 300px;
+}
+.okno{
+	width: 100%;
+	background: url(img/okno/m.jpg);
+	height: 800px;
+	background-size: cover;
+	margin-bottom: 10px
+}
+.img-box{
+	column-count: 5;
+	width: 95%;
+	margin: auto;
+	column-gap: 1px;
+}
+.image{
+	width: 100%;
+	display: block;
+	margin-bottom: 3px;
+	opacity: 0.06;
+	transition: opacity 2s, transform 3s;
+}
+.image:hover {
+	opacity: 1;
+	box-shadow: 0 0 30px 20px yellow;
+	transform: scale(1.2) skew(5deg, 10deg);
